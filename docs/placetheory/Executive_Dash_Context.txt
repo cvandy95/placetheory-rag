@@ -1,0 +1,24 @@
+Here is context to the entirety of the Azira Pinnacle system and subsequent reports:
+Additional Pinnacle Data Overview
+This document summarizes key information from the provided Pinnacle data articles, covering TSV files, location designation, and various reports available in the platform.
+1. What is a TSV File?
+A Tab-Separated Values (TSV) file is a simple text format for storing data in a tabular structure, similar to a spreadsheet. It's commonly used for moving tabular data between programs and is easy to export from Azira's Export Data tool.
+TSV vs. CSV Files:
+	•	Delimiter: TSV files use tabs as delimiters, while CSV files use commas.
+	•	Readability: TSV files are often easier for humans to read, especially with addresses, due to tab-separated values.
+	•	Efficiency: TSV files offer increased efficiency compared to CSV files, making them a preferred choice for many Data Export reports.
+2. How to Designate Location(s) for Study in Pinnacle
+When creating a new job in Export Data (formerly Data Explorer), users have three options to choose the location(s) for their job:
+a. Select Polygon
+	•	This option provides "gold-standard" polygons from Azira's Polygon Library (over 1.2 million available).
+	•	These polygons are precisely drawn and verified by Azira's team.
+	•	You can find polygons using filters like Geo (County, Province, Municipality), Sector, Subsector, and Category.
+b. GeoJSON/KML/ESRI
+	•	Users can upload their own pre-drawn polygons in GeoJSON, KML, or ESRI Shapefile formats.
+	•	There is no limit on the number of polygons, but the overall size should not exceed 5 million square feet.
+	•	This method is recommended for consistency across data and historical reports.
+c. Draw Polygon
+	•	Allows users to draw a new polygon from scratch directly on the map.
+	•	Limitation: Only one polygon can be drawn per job using this option.
+	•	Users can search for a location or address, draw a polygon around it, and assign a name.
+	•	For more than one polygon, users can create 
